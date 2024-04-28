@@ -1,26 +1,26 @@
-### Java Employee Challenge Project
+## Java Employee Challenge Project
 
 **Project Name:** java-employee-challenge
 
-#### Description
+## Description
 
 This Spring Boot project is developed for retrieving employee details.
 
-#### Execution
+## Execution
 
 The application can be executed by running the `RqChallengeApplication` file.
 
-#### Testing
+## Testing
 
 You can test and interact with the APIs on Swagger URL: [http://localhost:8080/swagger-ui](http://localhost:8080/swagger-ui)
 
-#### External Dependencies
+## External Dependencies
 
 - **spring-boot-starter-web:** Used for creating APIs using Spring Boot.
 - **Lombok:** Used for managing getter/setters and constructors.
 - **springdoc-openapi-ui:** Used for running APIs on Swagger.
 
-#### Controller Class
+### Controller Class
 
 ```java
 com.example.rqchallenge.controller.EmployeeController
@@ -28,7 +28,7 @@ com.example.rqchallenge.controller.EmployeeController
 
 This class contains endpoints for retrieving employee details and managing employee records.
 
-#### Service Class
+### Service Class
 
 ```java
 com.example.rqchallenge.service.EmployeeServiceImpl
@@ -36,6 +36,6 @@ com.example.rqchallenge.service.EmployeeServiceImpl
 
 This class implements the business logic for retrieving employee details.
 
-#### Author
+### Author
 
 Sandesh Gupta
