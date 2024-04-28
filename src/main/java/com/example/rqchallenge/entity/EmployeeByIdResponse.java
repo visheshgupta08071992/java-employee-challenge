@@ -7,11 +7,9 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 @NoArgsConstructor
-public class Employee {
+public class EmployeeByIdResponse {
 
-    private String id;
-    private String employee_name;
-    private String employee_salary;
-    private String employee_age;
-    private String profile_image;
+    private String status;
+    private Employee data;
+    private String message;
 }
